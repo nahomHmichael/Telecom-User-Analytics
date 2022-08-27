@@ -42,4 +42,4 @@ def app():
     st.bar_chart(frqnt_tcp['0'])
 
     st.header("Cluster with 3 group classification")
-    st.image('data/clusterExp.png')
+    st.image('data/cluster.png')
