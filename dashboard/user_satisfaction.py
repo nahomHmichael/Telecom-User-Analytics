@@ -4,7 +4,7 @@ import os,sys
 def app():
     st.title("User Satisfaction Analysis")
 
-    df_satisf = pd.read_csv('data/top10_satisfied_customers.csv')
+    df_satisf = pd.read_csv('data/top_10_satisfied_customers.csv')
     df_score = pd.read_csv('data/score_table.csv')
 
     st.header("Top 10 Satisfied Customers")
