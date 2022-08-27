@@ -34,16 +34,16 @@ def app():
     st.header("Top 10 Users Engaged Per Application")
     st.subheader("Email App users")
     st.dataframe(df_email)
-    st.bar_chart(df_email.Email_Total_Data)
+    st.bar_chart(df_email['Email(UL/DL)'])
 
     st.subheader("Game App users")
     st.dataframe(df_game)
-    st.bar_chart(df_game.Gaming_Total_Data)
+    st.bar_chart(df_game['Gaming(UL/DL)'])
 
     st.subheader("Google App users")
     st.dataframe(df_google)
-    st.bar_chart(df_google.Google_Total_Data)
+    st.bar_chart(df_google['Google(UL/DL)'])
 
     st.subheader("Netflix App users")
     st.dataframe(df_netflix)
-    st.bar_chart(df_netflix.Netflix_Total_Data)
+    st.bar_chart(df_netflix['Netflix(UL/DL)'])
